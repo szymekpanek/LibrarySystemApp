@@ -1,0 +1,22 @@
+Harry Potter and the Sorcerer's Stone;J.K. Rowling;ISBN009
+The Hunger Games;Suzanne Collins;ISBN008
+The Picture of Dorian Gray;Oscar Wilde;ISBN019
+The Da Vinci Code;Dan Brown;ISBN007
+Wuthering Heights;Emily Brontë;ISBN018
+The Hobbit;J.R.R. Tolkien;ISBN006
+The Count of Monte Cristo;Alexandre Dumas;ISBN017
+The Catcher in the Rye;J.D. Salinger;ISBN005
+The Odyssey;Homer;ISBN016
+Pride and Prejudice;Jane Austen;ISBN004
+Frankenstein;Mary Shelley;ISBN015
+1984;George Orwell;ISBN003
+Moby-Dick;Herman Melville;ISBN014
+To Kill a Mockingbird;Harper Lee;ISBN002
+Brave New World;Aldous Huxley;ISBN013
+The Great Gatsby;F. Scott Fitzgerald;ISBN001
+The Alchemist;Paulo Coelho;ISBN012
+The Shining;Stephen King;ISBN011
+Przewieszenie;Remigiusz Mróz;ISBN022
+The Lord of the Rings;J.R.R. Tolkien;ISBN010
+Ekspozycja;Remigiusz Mróz;ISBN021
+The Scarlet Letter;Nathaniel Hawthorne;ISBN020
