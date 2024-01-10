@@ -14,7 +14,7 @@ import java.util.Scanner;
 @Getter
 public class BookRepo {
     private final Map<String, Book> books = new HashMap<>();
-    FileControler fileControler = new FileControler();
+    FileController fileControler = new FileController();
 
     public BookRepo() {
         fileControler.readFromFile(books); // Odczytaj dane z pliku
@@ -32,7 +32,7 @@ public class BookRepo {
         System.out.print("ISBN: ");
         String isbn = scanner.nextLine();
 
-        Book newBook = new Book(title, author, isbn);
+        Book newBook = new Book(title, author, isbn, false, null, null, null);
         books.put(isbn, newBook);
 
         fileControler.saveToFile(books);
@@ -55,8 +55,14 @@ public class BookRepo {
 
         if (matchingBooks.isEmpty()) {
             System.out.println("No books found for the given author, title, or ISBN.");
-        } else {
-            matchingBooks.forEach(System.out::println);
+        }
+        else {
+            matchingBooks.forEach(book -> {
+                String availability = book.isBorrowed() ? " (Borrowed)" : " (AVAILABLE)";
+                System.out.println(book + availability);
+            });
         }
     }
+
+
 }

@@ -1,22 +1,22 @@
-Harry Potter and the Sorcerer's Stone;J.K. Rowling;ISBN009
-The Hunger Games;Suzanne Collins;ISBN008
-The Picture of Dorian Gray;Oscar Wilde;ISBN019
-The Da Vinci Code;Dan Brown;ISBN007
-Wuthering Heights;Emily Brontë;ISBN018
-The Hobbit;J.R.R. Tolkien;ISBN006
-The Count of Monte Cristo;Alexandre Dumas;ISBN017
-The Catcher in the Rye;J.D. Salinger;ISBN005
-The Odyssey;Homer;ISBN016
-Pride and Prejudice;Jane Austen;ISBN004
-Frankenstein;Mary Shelley;ISBN015
-1984;George Orwell;ISBN003
-Moby-Dick;Herman Melville;ISBN014
-To Kill a Mockingbird;Harper Lee;ISBN002
-Brave New World;Aldous Huxley;ISBN013
-The Great Gatsby;F. Scott Fitzgerald;ISBN001
-The Alchemist;Paulo Coelho;ISBN012
-The Shining;Stephen King;ISBN011
-Przewieszenie;Remigiusz Mróz;ISBN022
-The Lord of the Rings;J.R.R. Tolkien;ISBN010
-Ekspozycja;Remigiusz Mróz;ISBN021
-The Scarlet Letter;Nathaniel Hawthorne;ISBN020
+Harry Potter and the Sorcerer's Stone;J.K. Rowling;ISBN009;true;John Doe;2022-01-10;2022-01-24
+The Hunger Games;Suzanne Collins;ISBN008;false;;;
+The Picture of Dorian Gray;Oscar Wilde;ISBN019;false;;;
+The Da Vinci Code;Dan Brown;ISBN007;true;Jane Doe;2022-01-05;2022-01-19
+Wuthering Heights;Emily Brontë;ISBN018;false;;;
+The Hobbit;J.R.R. Tolkien;ISBN006;true;Alice Smith;2022-01-15;2022-01-29
+The Count of Monte Cristo;Alexandre Dumas;ISBN017;false;;;
+The Catcher in the Rye;J.D. Salinger;ISBN005;true;Bob Johnson;2022-01-08;2022-01-22
+The Odyssey;Homer;ISBN016;false;;;
+Pride and Prejudice;Jane Austen;ISBN004;false;;;
+Frankenstein;Mary Shelley;ISBN015;true;Eva Brown;2022-01-12;2022-01-26
+1984;George Orwell;ISBN003;false;;;
+Moby-Dick;Herman Melville;ISBN014;true;Charlie Adams;2022-01-07;2022-01-21
+To Kill a Mockingbird;Harper Lee;ISBN002;false;;;
+Brave New World;Aldous Huxley;ISBN013;false;;;
+The Great Gatsby;F. Scott Fitzgerald;ISBN001;true;David Wilson;2022-01-03;2022-01-17
+The Alchemist;Paulo Coelho;ISBN012;false;;;
+The Shining;Stephen King;ISBN011;true;Grace Miller;2022-01-06;2022-01-20
+Przewieszenie;Remigiusz Mróz;ISBN022;false;;;
+The Lord of the Rings;J.R.R. Tolkien;ISBN010;false;;;
+Ekspozycja;Remigiusz Mróz;ISBN021;false;;;
+The Scarlet Letter;Nathaniel Hawthorne;ISBN020;false;;;
