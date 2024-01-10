@@ -1,4 +1,4 @@
-package pl.edu.wszib.model;
+package pl.edu.wszib;
 
 import pl.edu.wszib.authorization.Authenticator;
 import pl.edu.wszib.gui.GUI;
