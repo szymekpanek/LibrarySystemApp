@@ -1,6 +1,8 @@
 package pl.edu.wszib.gui;
 
+import pl.edu.wszib.authorization.Authenticator;
 import pl.edu.wszib.model.Book;
+import pl.edu.wszib.model.User;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -16,20 +18,20 @@ public class GUI {
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     public static String showMenuAndReadChoose() {
-        System.out.println('\n' +"1. List books");
+        System.out.println('\n' + "1. List books");
         System.out.println("2. Add book"); //tylko admin
         System.out.println("3. Return book");
         System.out.println("4. Search book");
         System.out.println("5. Print borrowed books");
         System.out.println("6. Borrow book");
         System.out.println("7. List overdue books");
-        System.out.println("8. Return book");
-        System.out.println("9. Exit" + '\n');
+        System.out.println("8. Exit" + '\n');
 
         return scan.nextLine();
     }
 
     public static void listOfBooks(Map<String, Book> books) {
+
         System.out.println('\n' + "List of all books:");
         String booksInfo = books.values().stream()
                 .map(book -> "Title: " + book.getTitle() +
@@ -42,6 +44,7 @@ public class GUI {
                 .collect(Collectors.joining("\n"));
         System.out.println(booksInfo + '\n');
     }
+
 
     public static void printBorrowedBooks(Map<String, Book> books) {
         System.out.println("\nBorrowed Books:");
@@ -81,13 +84,11 @@ public class GUI {
     }
 
 
-
-
-
-
-
-
-
-
+    public static User readAuthData() {
+        System.out.println("Login:");
+        String login = scan.nextLine();
+        System.out.println("Password:");
+        return new User(login, scan.nextLine());
+    }
 
 }
